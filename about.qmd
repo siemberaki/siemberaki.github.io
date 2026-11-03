@@ -2,4 +2,11 @@
 title: "About"
 ---
 
-UBC MDS student
+I’m Siem Beraki, a DevOps Engineer based in Vancouver, BC. I work across cloud infrastructure, automation, and application delivery, with hands-on experience building on AWS using Terraform, Docker, Kubernetes, and GitHub Actions.
+
+At CoderCo, I provision and operate AWS infrastructure, build reusable Terraform modules, and automate container delivery to ECS Fargate. Previously, as a Software Engineer at the Commercial Bank of Ethiopia, I built backend services and an insurance claims system with Java and Spring Boot.
+
+I hold a Bachelor of Science in Computer Science (GPA 3.70 / 4.00). I’m interested in making cloud platforms secure, maintainable, and straightforward to deploy.
+
+**Contact:** [siem6729@gmail.com](mailto:siem6729@gmail.com) · 647.628.0139
+[LinkedIn](https://linkedin.com/in/siem-beraki) · [GitHub](https://github.com/siemberaki)

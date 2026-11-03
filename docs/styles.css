@@ -1,1 +1,149 @@
-/* css styles */
+/* Global */
+body {
+  color: #172b3a;
+  line-height: 1.7;
+}
+
+.navbar {
+  border-bottom: 1px solid #e6edf2;
+}
+
+#quarto-content {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #e6edf2;
+  color: #102a43;
+}
+
+h3 {
+  color: #102a43;
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Homepage */
+.hero {
+  margin: 1.25rem 0 3rem;
+  padding: clamp(2rem, 6vw, 4rem);
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, #102a43, #174f66);
+  color: #fff;
+}
+
+.hero .eyebrow {
+  margin-bottom: 1rem;
+  color: #a9e3dd;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2.15rem, 5vw, 3.65rem);
+  font-weight: 700;
+  line-height: 1.12;
+}
+
+.hero-copy {
+  max-width: 650px;
+  margin: 1.25rem 0 1.6rem;
+  color: #e2edf4;
+  font-size: 1.1rem;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  border: 1px solid #a9c2d1;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: rgb(255 255 255 / 12%);
+  color: #fff;
+}
+
+.button-primary {
+  border-color: #9fe3d8;
+  background: #9fe3d8;
+  color: #102a43;
+}
+
+.button-primary:hover {
+  background: #c1f1e9;
+  color: #102a43;
+}
+
+.experience,
+.project {
+  margin: 1rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e6edf2;
+  border-radius: 0.8rem;
+  background: #fff;
+}
+
+.experience > p:nth-of-type(1),
+.project > p:nth-of-type(1) {
+  margin-bottom: 0.8rem;
+  color: #547083;
+}
+
+.experience ul,
+.project ul {
+  margin-bottom: 0.1rem;
+  padding-left: 1.25rem;
+}
+
+.experience li,
+.project li {
+  margin: 0.45rem 0;
+}
+
+table {
+  width: 100%;
+}
+
+.contact-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  margin: 3rem 0 1rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.8rem;
+  background: #edf6f6;
+}
+
+.contact-strip strong {
+  margin-right: auto;
+  color: #102a43;
+}
+
+@media (max-width: 600px) {
+  .experience,
+  .project {
+    padding: 1rem;
+  }
+
+  .contact-strip strong {
+    width: 100%;
+  }
+}

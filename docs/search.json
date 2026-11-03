@@ -1,16 +1,44 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "siem",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "UBC MDS student"
+    "text": "I’m Siem Beraki, a DevOps Engineer based in Vancouver, BC. I work across cloud infrastructure, automation, and application delivery, with hands-on experience building on AWS using Terraform, Docker, Kubernetes, and GitHub Actions.\nAt CoderCo, I provision and operate AWS infrastructure, build reusable Terraform modules, and automate container delivery to ECS Fargate. Previously, as a Software Engineer at the Commercial Bank of Ethiopia, I built backend services and an insurance claims system with Java and Spring Boot.\nI hold a Bachelor of Science in Computer Science (GPA 3.70 / 4.00). I’m interested in making cloud platforms secure, maintainable, and straightforward to deploy.\nContact: siem6729@gmail.com · 647.628.0139 LinkedIn · GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Siem Beraki",
+    "section": "",
+    "text": "DEVOPS ENGINEER · VANCOUVER, BC\n\n\n\n\nI’m a DevOps Engineer focused on AWS, Terraform, containers, and CI/CD. I build secure, repeatable infrastructure and help teams ship applications with confidence.\n\n\nGet in touch GitHub LinkedIn"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Siem Beraki",
+    "section": "Experience",
+    "text": "Experience\n\nDevOps Engineer · CoderCo\nRemote · August 2024–Present\n\nDesigned and provisioned AWS infrastructure with Terraform, including VPCs, subnets, security groups, IAM roles, ECS services, and S3 resources.\nBuilt GitHub Actions CI/CD pipelines for Docker image builds, image tagging, and AWS ECS deployments.\nReduced Docker image size from approximately 1 GB to 64 MB with multi-stage builds, improving deployment efficiency.\nDeployed containerized applications to AWS ECS Fargate, integrating Application Load Balancers, Route 53, and ACM certificates for HTTPS.\nCreated reusable Terraform modules to standardize provisioning and improve maintainability across environments.\nImproved security with non-root containers, minimal base images, least-privilege access, and secure credential and cloud-resource configuration.\nConfigured Amazon CloudWatch monitoring and troubleshot AWS infrastructure, Terraform, containers, and CI/CD failures.\n\n\n\nSoftware Engineer · Commercial Bank of Ethiopia\nAddis Ababa, Ethiopia · July 2023–September 2024\n\nRefactored a 3,000+ line API into modular, reusable services and improved email delivery and mobile notifications, reducing query latency by 5%.\nDesigned and implemented an insurance claims management system with Spring Boot and Java, reducing claim processing time by 20%.\nDesigned and optimized Microsoft SQL Server queries for claims workflows and more efficient backend data access."
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Siem Beraki",
+    "section": "Selected projects",
+    "text": "Selected projects\n\nAWS EKS Kubernetes Infrastructure Automation\nAWS EKS · Terraform · Kubernetes · Helm · IAM · Route 53 · Git\n\nProvisioned an Amazon EKS cluster with reusable Terraform modules and VPC networking across public and private subnets in multiple Availability Zones.\nDeployed managed node groups and Kubernetes networking add-ons, and configured IAM Roles for Service Accounts (IRSA).\nIntegrated Helm-managed cert-manager and ExternalDNS with Route 53 for automated DNS management.\n\n\n\nAWS ECS Containerized Application Deployment\nAWS ECS Fargate · Terraform · Docker · GitHub Actions · ECR · ALB\n\nContainerized and deployed an application to ECS Fargate, provisioning networking and Application Load Balancer resources with Terraform.\nAutomated Docker image builds and pushes to Amazon ECR with GitHub Actions, alongside Terraform deployment and destruction workflows."
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Siem Beraki",
+    "section": "Technical skills",
+    "text": "Technical skills\n\n\n\n\n\n\n\nArea\nTechnologies\n\n\n\n\nCloud\nAWS (EC2, ECS Fargate, EKS, VPC, S3, IAM, Route 53, ALB, ACM, CloudWatch, ECR)\n\n\nInfrastructure & CI/CD\nTerraform, reusable modules, remote state, GitHub Actions, automated build and deployment pipelines\n\n\nContainers & orchestration\nDocker, Kubernetes, Amazon EKS, Amazon ECS, Helm\n\n\nNetworking & security\nVPC, subnets, NAT Gateway, security groups, IAM, IRSA, secrets management\n\n\nTools & collaboration\nLinux, Bash, Git, GitHub, Confluence, Jira, technical documentation, troubleshooting"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Siem Beraki",
+    "section": "Education",
+    "text": "Education\nBachelor of Science in Computer Science GPA: 3.70 / 4.00\n\nLet’s build something dependable. siem6729@gmail.com 647.628.0139"
   }
 ]

@@ -1,7 +1,79 @@
 ---
-title: "siem"
+title: "Siem Beraki"
 ---
 
-This is a Quarto website.
+::: {.hero}
+<p class="eyebrow">DEVOPS ENGINEER · VANCOUVER, BC</p>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Building reliable cloud infrastructure<br>and better delivery pipelines.
+
+<p class="hero-copy">I’m a DevOps Engineer focused on AWS, Terraform, containers, and CI/CD. I build secure, repeatable infrastructure and help teams ship applications with confidence.</p>
+
+::: {.hero-links}
+[Get in touch](mailto:siem6729@gmail.com){.button .button-primary}
+[GitHub](https://github.com/siemberaki){.button}
+[LinkedIn](https://linkedin.com/in/siem-beraki){.button}
+:::
+:::
+
+## Experience
+
+::: {.experience}
+### DevOps Engineer · CoderCo
+**Remote · August 2024–Present**
+
+- Designed and provisioned AWS infrastructure with Terraform, including VPCs, subnets, security groups, IAM roles, ECS services, and S3 resources.
+- Built GitHub Actions CI/CD pipelines for Docker image builds, image tagging, and AWS ECS deployments.
+- Reduced Docker image size from approximately 1 GB to 64 MB with multi-stage builds, improving deployment efficiency.
+- Deployed containerized applications to AWS ECS Fargate, integrating Application Load Balancers, Route 53, and ACM certificates for HTTPS.
+- Created reusable Terraform modules to standardize provisioning and improve maintainability across environments.
+- Improved security with non-root containers, minimal base images, least-privilege access, and secure credential and cloud-resource configuration.
+- Configured Amazon CloudWatch monitoring and troubleshot AWS infrastructure, Terraform, containers, and CI/CD failures.
+:::
+
+::: {.experience}
+### Software Engineer · Commercial Bank of Ethiopia
+**Addis Ababa, Ethiopia · July 2023–September 2024**
+
+- Refactored a 3,000+ line API into modular, reusable services and improved email delivery and mobile notifications, reducing query latency by 5%.
+- Designed and implemented an insurance claims management system with Spring Boot and Java, reducing claim processing time by 20%.
+- Designed and optimized Microsoft SQL Server queries for claims workflows and more efficient backend data access.
+:::
+
+## Selected projects
+
+::: {.project}
+### AWS EKS Kubernetes Infrastructure Automation
+**AWS EKS · Terraform · Kubernetes · Helm · IAM · Route 53 · Git**
+
+- Provisioned an Amazon EKS cluster with reusable Terraform modules and VPC networking across public and private subnets in multiple Availability Zones.
+- Deployed managed node groups and Kubernetes networking add-ons, and configured IAM Roles for Service Accounts (IRSA).
+- Integrated Helm-managed cert-manager and ExternalDNS with Route 53 for automated DNS management.
+:::
+
+::: {.project}
+### AWS ECS Containerized Application Deployment
+**AWS ECS Fargate · Terraform · Docker · GitHub Actions · ECR · ALB**
+
+- Containerized and deployed an application to ECS Fargate, provisioning networking and Application Load Balancer resources with Terraform.
+- Automated Docker image builds and pushes to Amazon ECR with GitHub Actions, alongside Terraform deployment and destruction workflows.
+:::
+
+## Technical skills
+
+| Area | Technologies |
+|:--|:--|
+| **Cloud** | AWS (EC2, ECS Fargate, EKS, VPC, S3, IAM, Route 53, ALB, ACM, CloudWatch, ECR) |
+| **Infrastructure & CI/CD** | Terraform, reusable modules, remote state, GitHub Actions, automated build and deployment pipelines |
+| **Containers & orchestration** | Docker, Kubernetes, Amazon EKS, Amazon ECS, Helm |
+| **Networking & security** | VPC, subnets, NAT Gateway, security groups, IAM, IRSA, secrets management |
+| **Tools & collaboration** | Linux, Bash, Git, GitHub, Confluence, Jira, technical documentation, troubleshooting |
+
+## Education
+
+**Bachelor of Science in Computer Science**
+GPA: 3.70 / 4.00
+
+::: {.contact-strip}
+**Let’s build something dependable.** [siem6729@gmail.com](mailto:siem6729@gmail.com) 647.628.0139
+:::
